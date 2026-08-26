@@ -1,0 +1,16 @@
+[project]
+name = "stat-486-lab-02"
+version = "0.1.0"
+description = "Reproducible environment for STAT 486 Lab 02"
+readme = "README.md"
+requires-python = "==3.11.5"
+dependencies = [
+    "ipykernel",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scikit-learn>=1.4",
+]
+
+[tool.uv]
+package = false
